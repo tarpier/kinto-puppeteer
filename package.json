@@ -1,0 +1,32 @@
+{
+  "name": "jest-puppeteer-job-example",
+  "version": "1.0.0",
+  "description": "a simple jest+puppeteer deployable to a k8s cloud job",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kintohub/jest-puppeteer-job-example.git"
+  },
+  "keywords": [
+    "k8s",
+    "kintohub",
+    "jest",
+    "e2e",
+    "puppeteer",
+    "cloud",
+    "cloud-native"
+  ],
+  "author": "Roman Z.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kintohub/jest-puppeteer-job-example/issues"
+  },
+  "homepage": "https://github.com/kintohub/jest-puppeteer-job-example#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "puppeteer": "^2.0.0"
+  }
+}
